@@ -1,0 +1,31 @@
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Arial, sans-serif; line-height: 1.6; color: #222; }
+.site-header { background: #184e3a; color: #fff; padding: 1rem; }
+.site-header h1 { margin: 0 0 .5rem 0; font-size: 1.25rem; }
+.nav { display: flex; flex-wrap: wrap; gap: .5rem; }
+.nav a { color: #e6fff3; text-decoration: none; background: rgba(255,255,255,.12); padding: .4rem .6rem; border-radius: .5rem; }
+.nav a:hover { background: rgba(255,255,255,.2); }
+.container { padding: 1rem; max-width: 960px; margin: 0 auto; }
+h2 { margin-top: .2rem; }
+.grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+.card { border: 1px solid #eee; border-radius: .75rem; padding: 1rem; background: #fff; }
+.card img { max-width: 100%; height: auto; border-radius: .5rem; }
+.badge { display: inline-block; padding: .25rem .5rem; border-radius: .5rem; background: #e7f5ef; color: #184e3a; font-size: .8rem; }
+.list { list-style: none; padding: 0; margin: 0; }
+.list li { border-bottom: 1px solid #eee; padding: .75rem 0; display: flex; align-items: center; gap: .75rem; }
+.list li:last-child { border-bottom: none; }
+.logo { width: 64px; height: auto; }
+.inline { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; }
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td { padding: .5rem; border-bottom: 1px solid #eee; text-align: left; }
+.hero { border-radius: .75rem; overflow: hidden; border: 1px solid #eee; }
+.hero img { width: 100%; display: block; }
+.gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: .75rem; }
+.gallery img { width: 100%; border-radius: .5rem; border: 1px solid #eee; }
+form { display: grid; gap: .75rem; }
+input, textarea, select, button { font: inherit; padding: .75rem; border: 1px solid #ccc; border-radius: .5rem; width: 100%; }
+button { background: #184e3a; color: #fff; border: none; cursor: pointer; }
+button:hover { filter: brightness(1.05); }
+.site-footer { padding: 2rem 1rem; text-align: center; color: #555; }
+@media (min-width: 700px) { .grid.cols-2 { grid-template-columns: repeat(2, 1fr); } .grid.cols-3 { grid-template-columns: repeat(3, 1fr); } }
