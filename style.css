@@ -27,7 +27,7 @@ h2 { margin-top: .2rem; }
 .list li { border-bottom: 1px solid #eee; padding: .75rem 0; display: flex; align-items: center; gap: .75rem; }
 .list li:last-child { border-bottom: none; }
 
-.logo { width: 1000px; height: auto; }
+.logo { width: 600px; height: auto; }
 
 .inline { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; }
 .table { width: 100%; border-collapse: collapse; }
