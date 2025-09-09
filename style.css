@@ -35,7 +35,7 @@ h2 { margin-top: .2rem; }
 .table th, .table td { padding: .5rem; border-bottom: 1px solid #eee; text-align: left; }
 
 .hero { border-radius: .75rem; overflow: hidden; border: 1px solid #eee; }
-.hero img { width: 100%; display: block; }
+.hero img { width: 1040; display: block; }
 
 .iframe { width: 100%; display: block; }
 
