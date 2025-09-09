@@ -35,9 +35,9 @@ h2 { margin-top: .2rem; }
 .table th, .table td { padding: .5rem; border-bottom: 1px solid #eee; text-align: left; }
 
 .hero { border-radius: .75rem; overflow: hidden; border: 1px solid #eee; }
-.hero img { width: 1040; display: block; }
+.hero img { width: 100%; display: block; }
 
-.iframe { width: 100%; display: block; }
+.iframe { width: 100%; display: blockborder-radius: .75rem; overflow: hidden; border: 1px solid #eee;}
 
 .gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: .75rem; }
 .gallery img { width: 100%; border-radius: .5rem; border: 1px solid #eee; }
