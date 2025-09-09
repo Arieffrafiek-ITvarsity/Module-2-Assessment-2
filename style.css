@@ -37,7 +37,6 @@ h2 { margin-top: .2rem; }
 .hero { border-radius: .75rem; overflow: hidden; border: 1px solid #eee; }
 .hero img { width: 100%; display: block; }
 
-.hero iframe { width: 100%; display: block;}
 
 .gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: .75rem; }
 .gallery img { width: 100%; border-radius: .5rem; border: 1px solid #eee; }
