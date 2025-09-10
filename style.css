@@ -51,3 +51,7 @@ button:hover { filter: brightness(1.05); }
 .site-footer { padding: 2rem 1rem; text-align: center; color: #555; }
 
 @media (min-width: 700px) { .grid.cols-2 { grid-template-columns: repeat(2, 1fr); } .grid.cols-3 { grid-template-columns: repeat(3, 1fr); } }
+
+.iframe {border-radius: .5rem;align-items: center;border: 1px solid #eee;
+  
+}
