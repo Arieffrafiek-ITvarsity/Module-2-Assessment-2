@@ -52,6 +52,18 @@ button:hover { filter: brightness(1.05); }
 
 @media (min-width: 700px) { .grid.cols-2 { grid-template-columns: repeat(2, 1fr); } .grid.cols-3 { grid-template-columns: repeat(3, 1fr); } }
 
-.iframe {border-radius: .5rem;align-items: center;border: 1px solid #eee;
-  
+.iframe-wrapper {
+  display: flex;
+  justify-content: center;   /* horizontally center */
+  margin: 2rem 0;            /* spacing */
 }
+
+.iframe-wrapper iframe {
+  width: 100%;
+  max-width: 1040px;         /* responsive max width */
+  aspect-ratio: 16 / 9;      /* keeps video proportional */
+  border-radius: 0.5rem;     /* rounded corners */
+  border: 1px solid #eee;    /* light border */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* optional subtle shadow */
+}
+
