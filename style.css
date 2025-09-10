@@ -63,7 +63,7 @@ button:hover { filter: brightness(1.05); }
 .iframe-wrapper iframe {
   width: 100%;              /* take full width of container */
   min-height: 585px;        /* keep it tall enough */
-  border-radius: 0.5rem;    /* rounded corners */
+  border-radius: 0.75rem;    /* rounded corners */
   border: 1px solid #eee;
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
